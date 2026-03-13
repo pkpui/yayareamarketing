@@ -3,21 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yay Area Marketing | Local SEO Agency — Get Found on Google Maps</title>
+  <title>Local SEO Agency — Get Found on Google Maps</title>
   <meta name="description" content="Local SEO agency helping businesses dominate Google Maps and local search. GBP optimization, citations, reviews & more. Book your free consultation today.">
   <meta name="keywords" content="local SEO agency, Google Maps ranking, GBP optimization, citation building, review management, local search marketing">
   
   <!-- Open Graph -->
-  <meta property="og:title" content="Yay Area Marketing | Local SEO Agency">
+  <meta property="og:title" content="Local SEO Agency — Get Found on Google Maps">
   <meta property="og:description" content="We help local businesses dominate Google Maps and local search — more visibility, more calls, more customers.">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="./logo.png">
   <meta property="og:url" content="https://yayareamarketing.com">
-  <meta property="og:image" content="https://yayareamarketing.com/og-image.png">
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Yay Area Marketing | Local SEO Agency">
+  <meta name="twitter:title" content="Local SEO Agency — Get Found on Google Maps">
   <meta name="twitter:description" content="Local SEO agency helping businesses dominate Google Maps and local search.">
+  <meta name="twitter:image" content="./logo.png">
   
   <link rel="canonical" href="https://yayareamarketing.com">
   
@@ -31,7 +32,7 @@
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Yay Area Marketing",
+    "name": "Local SEO Agency",
     "description": "Local SEO agency specializing in Google Business Profile optimization, citation building, review management, and local search rankings.",
     "url": "https://yayareamarketing.com",
     "areaServed": {
@@ -45,7 +46,8 @@
       "contactType": "sales",
       "email": "hello@yayareamarketing.com",
       "telephone": "+1-555-123-4567"
-    }
+    },
+    "logo": "https://yayareamarketing.com/logo.png"
   }
   </script>
 
@@ -141,13 +143,24 @@
     }
 
     .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo img {
+      height: 40px;
+      width: auto;
+    }
+
+    .logo-text {
       font-weight: 800;
       font-size: 1.25rem;
       letter-spacing: -0.5px;
       color: var(--text);
     }
 
-    .logo span { color: var(--accent); }
+    .logo-text span { color: var(--accent); }
 
     .nav-links {
       display: flex;
@@ -1018,7 +1031,9 @@
   <!-- Navigation -->
   <nav>
     <div class="container nav-inner">
-      <a href="#" class="logo">Yay Area <span>Marketing</span></a>
+      <a href="#" class="logo">
+        <img src="./logo.png" alt="Logo">
+      </a>
       
       <ul class="nav-links">
         <li><a href="#services">Services</a></li>
@@ -1503,7 +1518,9 @@
   <footer>
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="#" class="logo">Yay Area <span>Marketing</span></a>
+        <a href="#" class="logo">
+          <img src="./logo.png" alt="Logo" style="height: 50px; width: auto;">
+        </a>
         <p>Local SEO agency helping businesses dominate Google Maps and local search. GBP optimization, citations, reviews & more.</p>
       </div>
       
@@ -1529,7 +1546,7 @@
     </div>
     
     <div class="footer-bottom">
-      <p>&copy; 2026 Yay Area Marketing. All rights reserved.</p>
+      <p>&copy; 2026 Local SEO Agency. All rights reserved.</p>
       <p style="margin-top: 8px;">hello@yayareamarketing.com | (555) 123-4567</p>
     </div>
   </footer>
